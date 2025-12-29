@@ -1,0 +1,18 @@
+BoxLayout:
+    Label:
+        text: "Red"
+        background_color: 1, 0, 0, 1
+        canvas.before:
+            Color:
+                rgba: self.background_color
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        color: 1,1,0, 1
+        bold: True
+        italic: True
+        font_size: 40
+        halign: "center"
+        valign: "middle"
+        outline_width: 4
+        outline_color: 0,0,1,1
