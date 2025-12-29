@@ -1,0 +1,13 @@
+
+<MyLayout>:
+    orientation: 'vertical'
+    
+    Label:
+        id: my_label            # <--- WE NAME IT HERE
+        text: "I am waiting..."
+
+    Button:
+        text: "Click Me"
+        on_press: root.change_text()  # <--- WE CALL THE FUNCTION HERE
+    
+    

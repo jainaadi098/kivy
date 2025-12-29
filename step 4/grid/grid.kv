@@ -1,0 +1,36 @@
+<MyGrid>:
+    # 1. THE GOLDEN RULE: We must set columns!
+    cols: 3
+    
+    # 2. Add some breathing room
+    spacing: 10
+    padding: 20
+
+    # 3. Add Buttons (They fill Top-Left to Bottom-Right)
+    Label:
+        text: "7"
+    Button:
+        text: "8"
+    Button:
+        text: "9"
+    
+    Button:
+        text: "4"
+    Button:
+        text: "5"
+    Button:
+        text: "6"
+    
+    Button:
+        text: "1"
+    Button:
+        text: "2"
+    Button:
+        text: "3"
+        
+    # 4. spanning columns (Making a big button)
+    # This is a bit advanced, but cool!
+    Button:
+        text: "0"
+        # This tells Kivy: "Don't just stretch, keep it normal"
+        size_hint_x: 1

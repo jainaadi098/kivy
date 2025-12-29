@@ -1,0 +1,17 @@
+<MyAnchor>:
+    # 1. Set the Anchors
+    # Try changing these to 'left'/'bottom'/'center' to see what happens
+    anchor_x: 'center'
+    anchor_y: 'center'
+    
+    # 2. Add padding so it doesn't touch the absolute edge
+    padding: 20
+
+    # 3. The Child Widget
+    Button:
+        text: "I am in center"
+        # We MUST give the button a size, otherwise 
+        # it might try to fill the whole screen!
+        size_hint: None, None 
+        size: 150, 50
+    

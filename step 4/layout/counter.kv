@@ -1,0 +1,10 @@
+<MyLayout>:
+    orientation: 'vertical'
+    
+    Label:
+        text: root.my_text   # <--- Binds directly to the variable
+        font_size: 100      # Let's make it big!
+
+    Button:
+        text: "Add +1"
+        on_press: root.increment()
