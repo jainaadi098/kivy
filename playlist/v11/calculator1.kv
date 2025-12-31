@@ -1,0 +1,66 @@
+<Button>:
+    font_size:32
+
+<Calculator>:
+    BoxLayout:
+        orientation:"vertical"
+        size:root.width,root.height
+
+        TextInput:
+            text:"0"
+            halign:"right"
+            size_hint:(1,.2)
+            font_size: 32
+            multiline:False
+
+        GridLayout:
+            cols:4
+            rows:5
+
+            Button:
+                text:"%"
+            Button:
+                text:"CE"
+            Button:
+                text:"C"
+            Button:
+                text:"<<"
+            
+
+            Button:
+                text:"7"
+            Button:
+                text:"8"
+            Button:
+                text:"9"
+            Button:
+                text:"X"
+            
+            Button:
+                text:"4"
+            Button:
+                text:"5"
+            Button:
+                text:"6"
+            Button:
+                text:"-"
+            
+            Button:
+                text:"1"
+            Button:
+                text:"2"
+            Button:
+                text:"3"
+            Button:
+                text:"+"
+            
+            Button:
+                text:"/"
+            Button:
+                text:"0"
+            Button:
+                text:"."
+            Button:
+                text:"="
+            
+            
